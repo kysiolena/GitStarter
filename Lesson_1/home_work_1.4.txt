@@ -1,0 +1,24 @@
+mkdir my_site
+cd my_site
+
+mkdir img
+cd img
+touch dog.jpg
+touch cat.jpg
+touch turtle.jpg
+
+cd ..
+
+mkdir css
+cd css
+touch my_style.css
+
+cd ..
+
+touch index.html
+
+ls
+
+git init
+git add .
+git commit -m 'Create test folder structure for 1.4 task'

@@ -1,0 +1,10 @@
+touch name.txt
+touch email.txt
+touch course_name.txt
+
+nano name.txt
+nano email.txt
+nano course_name.txt
+
+git add .
+git commit -m 'Add 3 test files for 1.2 task'

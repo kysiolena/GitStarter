@@ -1,0 +1,22 @@
+mkdir geometry_lib
+cd geometry_lib
+
+mkdir docs
+cd docs
+touch instruction.txt
+
+cd ..
+
+mkdir my_pyfiles
+cd my_pyfiles
+touch volumes.py
+touch areas.py
+touch perimeters.py
+
+cd ..
+
+ls
+
+git init
+git add .
+git commit -m 'Create test folder structure for 1.3 task'
