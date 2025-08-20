@@ -1,0 +1,14 @@
+mkdir test
+cd test
+mkdir test_1
+mkdir test_2
+cd test_1
+touch test_1.py
+touch test_2.py
+rm test_1.py
+cd ..
+cd test_2
+touch test_3.py
+nano test_3.py
+cd ../..
+rm -rf test
